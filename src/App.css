@@ -1,0 +1,56 @@
+html,
+body {
+  overflow-x: hidden;
+}
+:root {
+  --main1: #30722a;
+  --light1: #3ffd00;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --main2: #ce3cff;
+}
+body {
+  font-family: "Baloo da 2", cursive !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  margin: 10px !important;
+  margin-top: 70px !important;
+}
+.navbar {
+  z-index: 6;
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.text-title {
+  font-family: "Indie Flower", cursive;
+  letter-spacing: 0.3rem;
+}
+.text-1 {
+  color: var(--main1);
+}
+.text-bright {
+  color: var(--light1);
+}
+.btn-black {
+  background: transparent;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--main2);
+}
+@media (max-width: 550px) {
+  .btn-txt {
+    display: none;
+  }
+  .cart-btn {
+    /* border: none !important; */
+  }
+}
